@@ -1,0 +1,47 @@
+body {
+  font-family        : 'Times New Roman';
+  background-image   : url("../src/wallpaper02.jpg");
+  background-repeat  : no-repeat;
+  background-size    : cover;
+  background-position: center;
+  height             : 100vh;
+  z-index            : 0;
+}
+
+header {
+  opacity         : 0.3;
+}
+
+header h1 {
+  margin-top : 30% ;
+  margin-left: 5%;
+  font-size  : 80px;
+  color      : #fff;
+  opacity    : 1;
+  line-height: 5%;
+}
+
+header p {
+  padding-left: 7%;
+}
+
+ul{
+
+  text-align   : right;
+  padding-top  : 4%;
+}
+
+ul li {
+  list-style      : none;
+  display         : inline;
+  opacity         : 0.7;
+  padding-right   : 80px;
+  margin          : 20px;
+}
+
+a{
+  font-size      : 25px;
+  color          : #fff;
+  opacity        : 0.7;
+  text-decoration: none;
+}
